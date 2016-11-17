@@ -1,0 +1,15 @@
+<div id="todos">
+    <button type="button" class="btn btn-success top-right" translate="BACK_TO_USER" ui-sref="user-detail({userID: utc.userID})"></button>
+    <h4>
+        TODO: 
+        {{(utc.todos | filter:{completed:true}).length}}
+        /
+        {{utc.todos.length}}
+    </h4>
+    <div ng-repeat="todo in utc.todos" class="checkbox disabled">
+        <label>
+            <input type="checkbox" ng-checked="{{todo.completed}}" disabled>
+            {{todo.title}}
+        </label>
+    </div>
+</div>

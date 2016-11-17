@@ -1,0 +1,11 @@
+<div id="posts">
+    <div class="panel panel-default" ng-repeat="post in pc.posts">
+        <div class="panel-heading">
+            {{post.title}}
+        </div>
+        <div class="panel-body">
+            <p>{{post.body}}</p>
+            <button translate="GO_TO_USER" ui-sref="user-detail({userID: post.userId})"></button>
+        </div>
+    </div>
+</div>

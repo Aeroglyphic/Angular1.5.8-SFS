@@ -1,0 +1,14 @@
+<div>
+    <table class="table">
+        <tr>
+            <th translate="ID"></th>
+            <th translate="NAME"></th>
+            <th translate="EMAIL"></th>
+        </tr>
+        <tr class="userRow" ng-repeat="user in uc.users" ui-sref="user-detail({userID: user.id})">
+            <td>{{user.id}}</td>
+            <td>{{user.name}}</td> 
+            <td>{{user.email}}</td>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,27 @@
+<div id="userDetails">
+    <button type="button" class="btn btn-success top-right" translate="SHOW_TODOS" ui-sref="user-todos({userID: udet.user.id})"></button>
+    <h4 translate="USER_DETAIL"></h4>
+    <form>
+        <div class="form-group">
+            <label for="name" translate="NAME"></label>
+            <input id="name" type="text" class="form-control" ng-model="udet.user.name" name="name">
+        </div>
+        <div class="form-group">
+            <label for="email" translate="EMAIL"></label>
+            <div class="input-group">
+                <span class="input-group-addon">@</span>
+                <input id="email" type="text" class="form-control" ng-model="udet.user.email" name="email">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="username" translate="USERNAME"></label>
+            <input id="username" type="text" class="form-control" ng-model="udet.user.username" name="username">
+        </div>
+        <div class="form-group">
+            <label for="phone" translate="PHONE"></label>
+            <input id="phone" class="form-control" type="text" ng-model="udet.user.phone" name="phone">
+        </div>
+        <button type="button" class="btn btn-primary" translate="UPDATE_USER" ng-click="udet.updateUser(udet.user)"></button>
+        <button type="button" class="btn btn-info" translate="SAY_NAME" ng-click="udet.sayName(udet.user.name, udet.user.username)"></button>
+    </form>
+</div>

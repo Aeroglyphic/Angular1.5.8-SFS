@@ -1,4 +1,4 @@
-# Angular1-SFS
+# Angular1.5.8-SFS
 Angular 1.5.8 project - Start From Scratch
 
 ## Installation Step by Step

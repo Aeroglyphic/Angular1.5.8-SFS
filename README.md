@@ -1,5 +1,5 @@
 # Angular1-SFS
-Angular 1 project - Start From Scratch
+Angular 1.5.8 project - Start From Scratch
 
 ## Installation Step by Step
 - Install Node.js
@@ -43,7 +43,7 @@ $ http-server
 
 ## Features
 
-- made following [John Papa Styleguide](https://github.com/johnpapa/angular-styleguide)
+- made following [John Papa Style Guide](https://github.com/johnpapa/angular-styleguide)
 - directive, factory and controller
 - $http
 - include 3rd-party JS library

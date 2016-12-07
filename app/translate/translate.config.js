@@ -10,7 +10,7 @@
     function TranslateConfig($translateProvider) {
         $translateProvider
             .translations('it', {
-                TITLE: 'Angular1-SFS',
+                TITLE: 'Angular1.5.8-SFS',
                 BUTTON_LANG_IT: 'italiano',
                 BUTTON_LANG_EN: 'inglese',
                 ID: 'ID',
@@ -29,7 +29,7 @@
                 POST_LIST: 'Lista Articoli'
             })
             .translations('en', {
-                TITLE: 'Angular1-SFS',
+                TITLE: 'Angular1.5.8-SFS',
                 BUTTON_LANG_IT: 'italian',
                 BUTTON_LANG_EN: 'english',
                 ID: 'ID',

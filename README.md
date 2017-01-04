@@ -1,7 +1,7 @@
 # Angular1.5.8-SFS
 Angular 1.5.8 project - Start From Scratch
 
-## Installation Step by Step
+## Installation
 - Install Node.js
 
 Go to [Node website](https://nodejs.org/en/)

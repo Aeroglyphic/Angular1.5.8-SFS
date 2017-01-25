@@ -6,13 +6,13 @@ Angular 1.5.8 project - Start From Scratch
 
 Go to [Node website](https://nodejs.org/en/)
 
-- Install http-server ([source](https://github.com/indexzero/http-server))
+- Install [http-server](https://github.com/indexzero/http-server)
 
 A command-line http server
 ```
 $ npm install -g http-server
 ```
-- Install json-server ([source](https://github.com/typicode/json-server))
+- Install [json-server](https://github.com/typicode/json-server)
 
 Full fake REST API
 ```
@@ -45,6 +45,7 @@ $ http-server
 - [NProgress](https://github.com/rstacruz/nprogress)
 - [Angular ui-router](https://ui-router.github.io/ng1/)
 - [Angular translate](https://angular-translate.github.io/)
+- NO unit/integration test has been developed
 
 ## Conclusion
 
